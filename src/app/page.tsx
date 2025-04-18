@@ -1,6 +1,5 @@
 'use client';
 import Image from 'next/image';
-import LoginWithGoogle from '@/components/LoginWithGoogle';
 
 export default function Home() {
   return (
