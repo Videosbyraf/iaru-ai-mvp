@@ -13,9 +13,7 @@ export default function Home() {
         className="mb-6"
         priority
       />
-      <h1 className="text-3xl font-bold mb-4">Welcome to IARU.AI</h1>
-      <p className="text-lg mb-6">Get your free AI-powered estimate</p>
-      <LoginWithGoogle />
+    <LoginWithGoogle />
     </main>
   );
 }
