@@ -8,8 +8,8 @@ export default function Home() {
       <Image
         src="/logo.png"
         alt="IARU Logo"
-        width={100}
-        height={100}
+        width={200}
+        height={200}
         className="mb-6"
         priority
       />
