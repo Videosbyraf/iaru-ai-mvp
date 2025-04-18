@@ -14,12 +14,12 @@ export default function LoginWithGoogle() {
   };
 
   return (
-    <div className="text-center mt-10">
+    <div className="mt-1">
       <button
         onClick={handleLogin}
-        className="bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800"
+        className="font-mono bg-white text-black border border-black px-6 py-2"
       >
-        Sign up with Google to get your free estimate
+        Sign Up
       </button>
     </div>
   );
