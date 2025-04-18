@@ -25,11 +25,11 @@ export default function LoginWithGoogle() {
 
   return (
     <div className="mt-1">
-      <button
+<button
   onClick={handleLogin}
-  className="font-mono bg-white text-black border border-black px-6 py-2 transition-colors duration-200 hover:bg-black hover:text-white"
+  className="bg-blue-500 text-white px-4 py-2 rounded-full w-full"
 >
-  SIGN UP FOR YOUR FREE AI VIDEO ESTIMATE
+SIGN UP FOR YOUR FREE AI VIDEO ESTIMATE
 </button>
     </div>
   );
