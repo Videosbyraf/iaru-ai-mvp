@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import LoginWithGoogle from '@/components/LoginWithGoogle';
 
 export default function Home() {
   return (
@@ -14,13 +15,9 @@ export default function Home() {
       />
       
       <div className="mt-1">
-        <button className="font-mono bg-white text-black border border-black px-6 py-2">
-          Sign Up
-        </button>
+        {/* Use LoginWithGoogle component for Google login */}
+        <LoginWithGoogle />
       </div>
-
-      {/* If LoginWithGoogle is the actual sign-up component, use styling there instead */}
-      {/* <LoginWithGoogle /> */}
     </main>
   );
 }
